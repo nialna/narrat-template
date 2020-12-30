@@ -6,6 +6,8 @@ Template app for [Narrat](https://github.com/nialna/narrat).
 
 ## Usage
 
+You can clone, fork or download this to get it in a local folder, then:
+
 1. `npm install`
 2. `npm start`
 
