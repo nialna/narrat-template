@@ -1,12 +1,24 @@
 {
+  "name": "narrat-template",
+  "version": "0.0.0-rc-6",
+  "description": "Template for Narrat game engine",
+  "keywords": [
+    "game",
+    "vue.js",
+    "snowpack"
+  ],
+  "author": "Liana Pigeot <liana.pigeot@protonmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
+    "build": "NODE_ENV=production snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "type-check": "tsc"
   },
   "dependencies": {
-    "vue": "^3.0.0"
+    "narrat": "^0.0.0-alpha",
+    "vue": "^3.0.0",
+    "vuex": "^4.0.0-rc.2"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
