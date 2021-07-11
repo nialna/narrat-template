@@ -1,5 +1,52 @@
 {
   "gameTitle": "Lovely Lady RPG",
+  "images": {
+    "narrat": "img/backgrounds/narrat.png",
+    "map": "img/backgrounds/map.png",
+    "shopButton": "img/ui/shop-button.png",
+    "parkButton": "img/ui/park-button.png"
+  },
+  "layout": {
+    "backgrounds": {
+      "width": 880,
+      "height": 720
+    },
+    "minTextWidth": 400,
+    "maxTextWidth": 800
+  },
+  "screens": {
+    "default": {
+      "background": "narrat"
+    },
+    "map": {
+      "background": "map",
+      "buttons": ["shopButton", "parkButton"]
+    }
+  },
+  "buttons": {
+    "shopButton": {
+      "enabled": false,
+      "background": "shopButton",
+      "position": {
+        "left": 38,
+        "top": 6,
+        "width": 255,
+        "height": 226
+      },
+      "action": "shopButton"
+    },
+    "parkButton": {
+      "enabled": false,
+      "background": "parkButton",
+      "position": {
+        "left": 632,
+        "top": 86,
+        "width": 255,
+        "height": 226
+      },
+      "action": "parkButton"
+    }
+  },
   "skills": {
     "testSkill": {
       "name": "Test Skill",
@@ -8,5 +55,18 @@
   },
   "scripts": [
     "data/example.rpy"
-  ]
+  ],
+  "sound": {
+    "alarm": {
+      "path": "sounds/alarm.wav"
+    }
+  },
+  "music": {
+    "calm": {
+      "path": "music/calm.mp3"
+    },
+    "metal": {
+      "path": "music/metal.mp3"
+    }
+  }
 }

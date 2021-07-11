@@ -16,7 +16,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "narrat": "^0.0.13",
+    "narrat": "^0.2.12",
     "vue": "^3.0.0",
     "vuex": "^4.0.0-rc.2"
   },
